@@ -115,9 +115,20 @@ At this point I could restart PC to use the secondary boot (shift + restart butt
 
 Unchecking the features in GUI results in Hyper-V being disabled in both boot entries. I had to come up with some more handy solution so I prepared 2 scripts to toggle those 2 features and automatically reboot into the Advanced Startup Menu, so I can easily switch between my regular boot and boot for the lab purposes.
 
+---
 
 ## Virtual Machines and allocated resources
 
 - Cisco 8000V used as core router // 6144mb RAM and 2vCPU
 - 1 x Cisco IOSvL2 used as distribution switch // 1024mb RAM and 1vCPU
 - 3 x Cisco IOSvL2 used as access switches // 1024mb RAM and 1vCPU each
+
+---
+
+## VMware Workstation Player update to Pro ##
+
+I needed to update the Workstation version to Pro in order to be able to map end-nodes into my network infrastructure. As of Nov 2024 Pro version is free and it offers this and few other useful features, such as cloning the VMs. The update had caused some troubles, though.
+
+I had to completely remove VMware Workstation Player and remove Vmware VIX. Then download 17 Pro from Broadcom website (they took over Vmware). Then I started having issues with vmnetbridge.dll during installation. Seems that it's quite a common trouble, however fixing it took me a while. The library is needed as otherwise later the network adapter for GNS3 VM doesn't work so GNS3 cannot communicate with Vmware Workstation.
+
+Solution: I removed the registries related to vmnetwork adapter, then then during the installation I pointed into the existing (new) folder of Vmware Workstation Pro (not the Player).
