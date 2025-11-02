@@ -125,10 +125,58 @@ Unchecking the features in GUI results in Hyper-V being disabled in both boot en
 
 ---
 
-## VMware Workstation Player update to Pro ##
+## VMware Workstation Player update to Pro
 
 I needed to update the Workstation version to Pro in order to be able to map end-nodes into my network infrastructure. As of Nov 2024 Pro version is free and it offers this and few other useful features, such as cloning the VMs. The update had caused some troubles, though.
 
 I had to completely remove VMware Workstation Player and remove Vmware VIX. Then download 17 Pro from Broadcom website (they took over Vmware). Then I started having issues with vmnetbridge.dll during installation. Seems that it's quite a common trouble, however fixing it took me a while. The library is needed as otherwise later the network adapter for GNS3 VM doesn't work so GNS3 cannot communicate with Vmware Workstation.
 
 Solution: I removed the registries related to vmnetwork adapter, then then during the installation I pointed into the existing (new) folder of Vmware Workstation Pro (not the Player).
+
+---
+
+## Network adapters ##
+
+3 different interface types had to be used here.
+
+GNS3 VM is using the VMnet1 Host-only interface which is created by default in Virtual Network Editor via VMware Workstation. This way the management communication between my host PC and the GNS3 VM, hosting the network devices and servers, is separated from everything else.
+
+Windows Server 2019 and 2016 are used within GNS3 VM, so no need for separate adapters.
+
+WAN Router is connected to the cloud interface called, in my case, "ethernet". In practice it's my actual NIC interface in Bridge mode, so the lab router gets an IP directly from my home 
+router.
+
+End-nodes, like Win10/11 and Linux machines will use separate VMnet Host-only interfaces for each VLAN. There could be two solutions here. One to place a separate "end-devices" cloud on a single VMnet network adapter connected to a single access switch port in the lab. VMnet adapter works like an unmanaged switch, so the result would be having multiple mac addresses on a single access switch port in the lab. It's gonna work but will be less clear.
+Since my lab is not that big and I prioritize to make it as realistic as possible I decided to go with the option for having 1 VMnet adapter per VM device.
+That makes: 
+1 VM (Windows/Linux/printer) == 1 VMnet adapter == 1 cloud device == 1 access switch port in the lab. In this case the VMnet adapter works more as an ethernet connection to a switch.
+
+---
+
+## Domain ##
+
+I set up domain lab.local and Active Directory on Windows Server 2019. I created following OUs and users to populate the enterprise:
+- NetManagement
+- Operations
+- HR
+- Finance
+- Infosec
+
+DNS, DHCP and Windows Server 2016 as secondary DC TBA
+Group Policies TBA
+
+---
+
+## End-devices & users ##
+
+End user devices are set up in VMware, using VMnet adapters. All devices are added to the lab.local domain. All Windows 10 are linked clone copies of the Win10 in NetManagement VLAN making them lightweight but fine for the lab.
+
+- Windows Server 2019 - as qemu device in GNS3 VM
+- Windows Server 2016 - as qemu device in GNS3 VM - TBA
+- Windows 10 in NetManagement VLAN; user adm.adrian; having access to RSAT and RDP for managing the Windows Server remotely
+- Windows 10 in Operations VLAN; user ops.alex
+- Windows 10 in Finance VLAN; user fin.john
+- Windows 10 in HR VLAN; user hr.suzanne
+- Windows 10 in Operations (separate); user ops.tom
+- Linux in NetManagement VLAN for the administration of network infrastructure - TBA
+- Kali Linux in Guest network TBA

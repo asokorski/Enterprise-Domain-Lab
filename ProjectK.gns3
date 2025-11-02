@@ -435,38 +435,6 @@
         "links": [
             {
                 "filters": {},
-                "link_id": "21c80028-507e-49ae-a7e7-41b6db79bb9e",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "GigabitEthernet0",
-                            "x": 32,
-                            "y": -10
-                        },
-                        "node_id": "a49b4b7f-096b-4295-b2a1-0a1616e1772a",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "eth0",
-                            "x": 79,
-                            "y": 74
-                        },
-                        "node_id": "de8826ad-696e-49b7-9399-2a569a357742",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "06298ab5-e9a3-409f-b8e3-789dbd749c8a",
                 "link_style": {},
                 "nodes": [
@@ -691,7 +659,7 @@
             },
             {
                 "filters": {},
-                "link_id": "283c37fa-5682-4a0c-931e-511713c6cf60",
+                "link_id": "e5430eee-00c3-4453-9853-e77842de9e12",
                 "link_style": {},
                 "nodes": [
                     {
@@ -699,23 +667,23 @@
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 57,
-                            "y": -1
+                            "text": "GigabitEthernet0",
+                            "x": 31,
+                            "y": -17
                         },
-                        "node_id": "ba6cbfbd-3940-467d-8aed-4ffd8da90f9d",
+                        "node_id": "a49b4b7f-096b-4295-b2a1-0a1616e1772a",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
+                        "adapter_number": 0,
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e2",
-                            "x": 10,
-                            "y": 47
+                            "text": "Ethernet",
+                            "x": 80,
+                            "y": 74
                         },
-                        "node_id": "7b27541b-d4be-4f85-9b22-f07bb46763fa",
+                        "node_id": "03ea4c2f-166f-4b65-bf3a-a2286dd164b7",
                         "port_number": 0
                     }
                 ],
@@ -723,7 +691,7 @@
             },
             {
                 "filters": {},
-                "link_id": "48d812b2-3cce-4cd3-8a12-2d7f320e5b9e",
+                "link_id": "6d5bf3ab-189f-449b-8c96-bbfacafe1d25",
                 "link_style": {},
                 "nodes": [
                     {
@@ -732,10 +700,10 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e0",
-                            "x": 19,
-                            "y": -8
+                            "x": 32,
+                            "y": -10
                         },
-                        "node_id": "a5ca8829-8457-4f08-896c-3e26bb6400b2",
+                        "node_id": "df980fd3-e9c9-442e-aa33-44fcb6de231f",
                         "port_number": 0
                     },
                     {
@@ -744,8 +712,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e5",
-                            "x": 48,
-                            "y": 53
+                            "x": 35,
+                            "y": 55
                         },
                         "node_id": "7b27541b-d4be-4f85-9b22-f07bb46763fa",
                         "port_number": 0
@@ -755,7 +723,7 @@
             },
             {
                 "filters": {},
-                "link_id": "18a6ff8c-9e5e-4339-b2dc-bdfc8be3170d",
+                "link_id": "809f6689-80e5-4cf5-bd49-bfc51654d95e",
                 "link_style": {},
                 "nodes": [
                     {
@@ -763,11 +731,11 @@
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 66,
-                            "y": 8
+                            "text": "VMware Network Adapter VMnet3",
+                            "x": 84,
+                            "y": 17
                         },
-                        "node_id": "4657d914-9b0e-47da-9a07-29addc39eb08",
+                        "node_id": "cac954b3-02c8-493f-bada-138f150a6229",
                         "port_number": 0
                     },
                     {
@@ -776,8 +744,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e2",
-                            "x": 1,
-                            "y": 36
+                            "x": 0,
+                            "y": 33
                         },
                         "node_id": "1da4da83-8cf4-485d-96e4-5c8097576b57",
                         "port_number": 0
@@ -787,7 +755,7 @@
             },
             {
                 "filters": {},
-                "link_id": "bf43b713-3ac9-448c-9ae7-ae07d949c274",
+                "link_id": "002824f6-4bad-449b-addc-97edc216c65f",
                 "link_style": {},
                 "nodes": [
                     {
@@ -795,11 +763,11 @@
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 48,
-                            "y": -7
+                            "text": "VMware Network Adapter VMnet4",
+                            "x": 68,
+                            "y": 0
                         },
-                        "node_id": "8089262f-bbb4-4ae5-9b9d-926b1482047d",
+                        "node_id": "87723ff0-af7b-45c4-8362-93df5236fe91",
                         "port_number": 0
                     },
                     {
@@ -808,8 +776,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e4",
-                            "x": 19,
-                            "y": 52
+                            "x": 12,
+                            "y": 48
                         },
                         "node_id": "1da4da83-8cf4-485d-96e4-5c8097576b57",
                         "port_number": 0
@@ -819,7 +787,7 @@
             },
             {
                 "filters": {},
-                "link_id": "c1568ee1-3fc0-4b41-a24a-5ef273936b14",
+                "link_id": "bf738b58-1376-4e2e-a25c-db72993ae068",
                 "link_style": {},
                 "nodes": [
                     {
@@ -827,11 +795,11 @@
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 8,
+                            "text": "VMware Network Adapter VMnet5",
+                            "x": 13,
                             "y": -2
                         },
-                        "node_id": "7841a4f5-2285-4d44-a3f3-7c59920370f7",
+                        "node_id": "c80c9118-bd96-45ca-adf7-2c8d40652282",
                         "port_number": 0
                     },
                     {
@@ -840,8 +808,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e6",
-                            "x": 59,
-                            "y": 47
+                            "x": 57,
+                            "y": 49
                         },
                         "node_id": "1da4da83-8cf4-485d-96e4-5c8097576b57",
                         "port_number": 0
@@ -851,7 +819,7 @@
             },
             {
                 "filters": {},
-                "link_id": "673510ce-7f20-41d8-b846-6575078c7c10",
+                "link_id": "d5eb8feb-947b-45aa-9275-5ebf3cb886ab",
                 "link_style": {},
                 "nodes": [
                     {
@@ -859,11 +827,11 @@
                         "label": {
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 66,
-                            "y": 8
+                            "text": "VMware Network Adapter VMnet6",
+                            "x": 83,
+                            "y": 15
                         },
-                        "node_id": "66520efe-5b8e-49ab-b5c6-263097ac5cdb",
+                        "node_id": "090943ea-bc19-4f00-ad84-e47ba2136392",
                         "port_number": 0
                     },
                     {
@@ -872,8 +840,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e2",
-                            "x": 1,
-                            "y": 37
+                            "x": 0,
+                            "y": 35
                         },
                         "node_id": "8129b507-6f2d-4fdb-b4fb-002f76e0a08a",
                         "port_number": 0
@@ -883,7 +851,7 @@
             },
             {
                 "filters": {},
-                "link_id": "47e9f190-a867-465a-bcac-538eb901f522",
+                "link_id": "d38a382c-fb6c-4fd8-a6b7-29768d3b64c3",
                 "link_style": {},
                 "nodes": [
                     {
@@ -892,10 +860,10 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e0",
-                            "x": 50,
-                            "y": -6
+                            "x": 51,
+                            "y": -5
                         },
-                        "node_id": "d424398c-da28-4236-88ea-a097602d56f9",
+                        "node_id": "77a9ee4d-cc0f-4ba0-be47-81ae1007bada",
                         "port_number": 0
                     },
                     {
@@ -904,7 +872,7 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e4",
-                            "x": 17,
+                            "x": 16,
                             "y": 51
                         },
                         "node_id": "8129b507-6f2d-4fdb-b4fb-002f76e0a08a",
@@ -915,7 +883,7 @@
             },
             {
                 "filters": {},
-                "link_id": "c58aa664-7931-4b0a-9af3-c11a5eab8eed",
+                "link_id": "1e6ce429-5307-4ec4-b264-b414fcfd33ee",
                 "link_style": {},
                 "nodes": [
                     {
@@ -927,7 +895,7 @@
                             "x": 11,
                             "y": -4
                         },
-                        "node_id": "719521c9-a6d6-4092-ba7d-4940bfaf77da",
+                        "node_id": "75b02202-5990-4279-95b4-27648451dc68",
                         "port_number": 0
                     },
                     {
@@ -940,6 +908,70 @@
                             "y": 49
                         },
                         "node_id": "8129b507-6f2d-4fdb-b4fb-002f76e0a08a",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "4c6016c2-1f7d-46d7-9f76-839600fb97d8",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "VMware Network Adapter VMnet2",
+                            "x": 84,
+                            "y": 0
+                        },
+                        "node_id": "733be7af-264f-40d7-a115-f21fb3415a57",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": 6,
+                            "y": 43
+                        },
+                        "node_id": "7b27541b-d4be-4f85-9b22-f07bb46763fa",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "5fb55523-898b-461b-b197-da28b61437c3",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 49,
+                            "y": -6
+                        },
+                        "node_id": "1067b9dd-3cef-453a-84ff-46d163513930",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e3",
+                            "x": 18,
+                            "y": 52
+                        },
+                        "node_id": "7b27541b-d4be-4f85-9b22-f07bb46763fa",
                         "port_number": 0
                     }
                 ],
@@ -1159,35 +1191,6 @@
             },
             {
                 "compute_id": "vm",
-                "console": 5009,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC1",
-                    "x": 16,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "PC1",
-                "node_id": "ba6cbfbd-3940-467d-8aed-4ffd8da90f9d",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": -1144,
-                "y": 408,
-                "z": -2
-            },
-            {
-                "compute_id": "vm",
                 "console": 5012,
                 "console_auto_start": false,
                 "console_type": "telnet",
@@ -1255,70 +1258,6 @@
                 "x": -148,
                 "y": -383,
                 "z": 2
-            },
-            {
-                "compute_id": "vm",
-                "console": null,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 71,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Cloud1",
-                    "x": 54,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "Cloud1",
-                "node_id": "de8826ad-696e-49b7-9399-2a569a357742",
-                "node_type": "cloud",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "interfaces": [
-                        {
-                            "name": "docker0",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "eth0",
-                            "special": false,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "lo",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "virbr0",
-                            "special": true,
-                            "type": "ethernet"
-                        }
-                    ],
-                    "ports_mapping": [
-                        {
-                            "interface": "eth0",
-                            "name": "eth0",
-                            "port_number": 0,
-                            "type": "ethernet"
-                        }
-                    ],
-                    "remote_console_host": "",
-                    "remote_console_http_path": "/",
-                    "remote_console_port": 23,
-                    "remote_console_type": "none"
-                },
-                "symbol": ":/symbols/cloud.svg",
-                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
-                "width": 159,
-                "x": -198,
-                "y": -598,
-                "z": 1
             },
             {
                 "compute_id": "vm",
@@ -1440,8 +1379,720 @@
                 "z": 1
             },
             {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 512,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "VLAN99_Win10_1",
+                    "x": -21,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "VLAN99_Win10_1",
+                "node_id": "733be7af-264f-40d7-a115-f21fb3415a57",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 3",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 4",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet5",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet6",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet7",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "VMware Network Adapter VMnet2",
+                            "name": "VMware Network Adapter VMnet2",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": "windows-10.png",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 512,
+                "x": -1207,
+                "y": 377,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "External_network",
+                    "x": 18,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "External_network",
+                "node_id": "03ea4c2f-166f-4b65-bf3a-a2286dd164b7",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 3",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 4",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet5",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet6",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet7",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "Ethernet",
+                            "name": "Ethernet",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "Ethernet 3",
+                            "name": "Ethernet 3",
+                            "port_number": 1,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "Ethernet 4",
+                            "name": "Ethernet 4",
+                            "port_number": 2,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "Po\u0142\u0105czenie sieciowe Bluetooth",
+                            "name": "Po\u0142\u0105czenie sieciowe Bluetooth",
+                            "port_number": 3,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -195,
+                "y": -600,
+                "z": 1
+            },
+            {
                 "compute_id": "vm",
-                "console": 5013,
+                "console": 5900,
+                "console_auto_start": false,
+                "console_type": "vnc",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 624,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "WinServer2019",
+                    "x": -14,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "WinServer2019",
+                "node_id": "df980fd3-e9c9-442e-aa33-44fcb6de231f",
+                "node_type": "qemu",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "virtio-net-pci",
+                    "adapters": 1,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "d",
+                    "cdrom_image": "virtio-win-0.1.285.iso",
+                    "cdrom_image_md5sum": "9e650d0e7c6e017a91ca299c8f7ed766",
+                    "cpu_throttling": 0,
+                    "cpus": 2,
+                    "create_config_disk": false,
+                    "hda_disk_image": "WindowsServer2019-base-hda.qcow2",
+                    "hda_disk_image_md5sum": "38e1b8156ae2e77edefd694697d096d2",
+                    "hda_disk_interface": "ide",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "none",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "none",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "none",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:98:0f:d3:00:00",
+                    "on_close": "power_off",
+                    "options": "",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 4096,
+                    "replicate_network_connection_state": true,
+                    "tpm": false,
+                    "uefi": false,
+                    "usage": ""
+                },
+                "symbol": "windows_server_2019.png",
+                "template_id": "4f1dcbd7-01a3-46fa-915a-4323231455ad",
+                "width": 622,
+                "x": -915,
+                "y": 386,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 512,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "VLAN20_Win10_1",
+                    "x": -21,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "VLAN20_Win10_1",
+                "node_id": "cac954b3-02c8-493f-bada-138f150a6229",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 3",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 4",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet5",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet6",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet7",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "VMware Network Adapter VMnet3",
+                            "name": "VMware Network Adapter VMnet3",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": "windows-10.png",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 512,
+                "x": -610,
+                "y": 376,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 512,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "VLAN30_Win10_1",
+                    "x": -21,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "VLAN30_Win10_1",
+                "node_id": "87723ff0-af7b-45c4-8362-93df5236fe91",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 3",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 4",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet5",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet6",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet7",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "VMware Network Adapter VMnet4",
+                            "name": "VMware Network Adapter VMnet4",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": "windows-10.png",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 512,
+                "x": -320,
+                "y": 386,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 512,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "VLAN40_Win10_1",
+                    "x": -21,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "VLAN40_Win10_1",
+                "node_id": "c80c9118-bd96-45ca-adf7-2c8d40652282",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 3",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 4",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet5",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet6",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet7",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "VMware Network Adapter VMnet5",
+                            "name": "VMware Network Adapter VMnet5",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": "windows-10.png",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 512,
+                "x": -7,
+                "y": 382,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 512,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "VLAN20_Win10_2",
+                    "x": -21,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "VLAN20_Win10_2",
+                "node_id": "090943ea-bc19-4f00-ad84-e47ba2136392",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 3",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 4",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet5",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet6",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet7",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "VMware Network Adapter VMnet6",
+                            "name": "VMware Network Adapter VMnet6",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": "windows-10.png",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 512,
+                "x": 289,
+                "y": 381,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5006,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -1450,13 +2101,13 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC2",
-                    "x": 16,
+                    "text": "TBA_Linux",
+                    "x": -4,
                     "y": -25
                 },
                 "locked": false,
-                "name": "PC2",
-                "node_id": "a5ca8829-8457-4f08-896c-3e26bb6400b2",
+                "name": "TBA_Linux",
+                "node_id": "1067b9dd-3cef-453a-84ff-46d163513930",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -1464,13 +2115,42 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -847,
+                "x": -1070,
+                "y": 415,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5008,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "TBA_Infosec",
+                    "x": -12,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "TBA_Infosec",
+                "node_id": "77a9ee4d-cc0f-4ba0-be47-81ae1007bada",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {},
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
+                "width": 65,
+                "x": 615,
                 "y": 409,
                 "z": 1
             },
             {
-                "compute_id": "vm",
-                "console": 5015,
+                "compute_id": "local",
+                "console": 5010,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -1479,13 +2159,13 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC3",
-                    "x": 16,
+                    "text": "TBA_Kali",
+                    "x": 1,
                     "y": -25
                 },
                 "locked": false,
-                "name": "PC3",
-                "node_id": "4657d914-9b0e-47da-9a07-29addc39eb08",
+                "name": "TBA_Kali",
+                "node_id": "75b02202-5990-4279-95b4-27648451dc68",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -1493,153 +2173,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": -548,
-                "y": 405,
-                "z": 1
-            },
-            {
-                "compute_id": "vm",
-                "console": 5017,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC4",
-                    "x": 16,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "PC4",
-                "node_id": "8089262f-bbb4-4ae5-9b9d-926b1482047d",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": -251,
-                "y": 406,
-                "z": 1
-            },
-            {
-                "compute_id": "vm",
-                "console": 5019,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC5",
-                    "x": 16,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "PC5",
-                "node_id": "7841a4f5-2285-4d44-a3f3-7c59920370f7",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": 41,
-                "y": 407,
-                "z": 1
-            },
-            {
-                "compute_id": "vm",
-                "console": 5021,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC6",
-                    "x": 16,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "PC6",
-                "node_id": "66520efe-5b8e-49ab-b5c6-263097ac5cdb",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": 331,
-                "y": 403,
-                "z": 1
-            },
-            {
-                "compute_id": "vm",
-                "console": 5023,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC7",
-                    "x": 16,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "PC7",
-                "node_id": "d424398c-da28-4236-88ea-a097602d56f9",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": 631,
-                "y": 403,
-                "z": 1
-            },
-            {
-                "compute_id": "vm",
-                "console": 5025,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC8",
-                    "x": 16,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "PC8",
-                "node_id": "719521c9-a6d6-4092-ba7d-4940bfaf77da",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": 936,
-                "y": 404,
+                "x": 933,
+                "y": 401,
                 "z": 1
             }
         ]
